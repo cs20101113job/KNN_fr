@@ -17,7 +17,7 @@ import face_recognition
 from face_recognition.face_recognition_cli import image_files_in_folder
 
 
-st.title("KNN/ SVM/ Mediapipe三種模型進行人臉偵測")
+st.title("KNN-K近鄰演算法模型進行人臉偵測")
 save_folder = "KNN_SVM_Mediapipe_face_recognition_saved"
 os.makedirs(save_folder, exist_ok=True) # os.makedirs() 函數用於創建多層目錄
 uploaded_file = st.file_uploader("上傳圖片", type=["jpg", "png", "jpeg"])
